@@ -9,12 +9,16 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    
 }
+
+/*Elementos base */
 
 body {
 
     background-color:var(--preta);
     font-family:'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container{
@@ -22,8 +26,6 @@ display: flex;
 flex-direction: row;
 align-items: center;
 justify-content:space-between;
-
-
 }
 
  header .logo{
@@ -42,4 +44,23 @@ header nav a{
 header nav a:hover{
 color: #fff;
 }
+
+/*Filme principal*/
+
+.filme-principal{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../img/capa1.png);
+    height:600px;
+    background-size:cover;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 90px;
+}
+
 
