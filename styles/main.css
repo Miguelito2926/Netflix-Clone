@@ -60,7 +60,11 @@ color: #fff;
 }
 
 .filme-principal .descricao{
-    margin-bottom: 90px;
+    margin-bottom: 40px;
+}
+
+.titulo{
+    font-size: 40px;
 }
 
 
