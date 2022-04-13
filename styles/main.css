@@ -17,7 +17,7 @@
 body {
 
     background-color:var(--preta);
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Arial', Times, serif;
     color: white;
 }
 
@@ -103,4 +103,7 @@ color: #fff;
     display: block;
 }
 
+.carrosel-filmes{
+    margin-top: 5px;
+}
 
